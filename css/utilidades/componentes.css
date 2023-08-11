@@ -1,0 +1,21 @@
+.botao{
+    display: inline-block;
+    padding: 16px 32px;
+    background: linear-gradient(#FFBF00, #F2A50C);
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1);/*cria uma sombra*/
+    text-transform: uppercase;
+    color: var(--cor-p5);
+    font: 600 1.12rem/1.35 "Poppins", sans-serif;
+}
+
+.botao:hover {
+    background: linear-gradient(#FFB60d, #e59317);
+}
+
+@media (max-width: 600px) {
+    .botao {
+         padding: 12px 16px;
+         font-size: 1rem;
+    }
+}
