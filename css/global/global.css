@@ -5,7 +5,7 @@ body {
     color: #111111;
 }
 
-h1, ul, p {
+h1, h2, h3, h4, ul, p {
     margin: 0px;
 }
 
@@ -22,4 +22,8 @@ a {
 img {
     max-width: 100%;
     display: block;
+}
+
+img[src$=".jpg"] { /*tudo que é imagem, tem src e o acaba com .jpg*/
+    border-radius: 4px; 
 }
