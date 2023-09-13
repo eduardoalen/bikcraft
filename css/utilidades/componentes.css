@@ -17,6 +17,8 @@
     color: var(--cor-p5);
     font: 600 1.12rem/1.35 "Poppins", sans-serif;
     max-width: max-content; /*conteudo máximo do elemento*/
+    border: none;
+    cursor: pointer;
 }
 
 .botao:hover {
